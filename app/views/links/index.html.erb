@@ -1,0 +1,10 @@
+<h1>Links</h1>
+
+<ul>
+  <% @links.each do |link| %>
+    <li>
+      <%= link.name %>:
+      <%= link.link %>
+    </li>
+  <% end %>
+</ul>
